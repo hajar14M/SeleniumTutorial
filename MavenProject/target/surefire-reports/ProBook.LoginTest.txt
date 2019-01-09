@@ -1,15 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: ProBook.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 24.619 sec <<< FAILURE!
-f(ProBook.LoginTest)  Time elapsed: 0.765 sec  <<< FAILURE!
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 10.346 sec <<< FAILURE!
+f(ProBook.LoginTest)  Time elapsed: 0.367 sec  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: Unable to locate element: Se connecter / s'inscrire
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'PRGDV003-FOR01', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-13-generic', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8689, moz:profile: /tmp/rust_mozprofile.C7sFQ4..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.18.0-13-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3827d677-d433-4715-a91f-c2d9a3ea8963
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 19415, moz:profile: /tmp/rust_mozprofile.Wif0Bt..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.18.0-13-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 85be2245-e735-4b5b-8f67-cbf782b32872
 *** Element info: {Using=link text, value=Se connecter / s'inscrire}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -27,8 +27,8 @@ Session ID: 3827d677-d433-4715-a91f-c2d9a3ea8963
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
 	at ProBook.LoginTest.f(LoginTest.java:38)
 
-afterMethod(ProBook.LoginTest)  Time elapsed: 1.111 sec  <<< FAILURE!
-java.io.FileNotFoundException: ./screenshots/f_2019-01-08 15-52-54.png (Aucun fichier ou dossier de ce type)
+afterMethod(ProBook.LoginTest)  Time elapsed: 0.583 sec  <<< FAILURE!
+java.io.FileNotFoundException: ./screenshots/f_2019-01-09 09-22-39.png (Aucun fichier ou dossier de ce type)
 	at java.io.FileOutputStream.open0(Native Method)
 	at java.io.FileOutputStream.open(FileOutputStream.java:270)
 	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)

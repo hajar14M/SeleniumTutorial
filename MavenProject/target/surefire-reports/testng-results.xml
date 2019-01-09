@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="ProBook.LoginTest" duration-ms="22451" started-at="2019-01-08T15:52:32Z" finished-at="2019-01-08T15:52:54Z">
+  <suite name="ProBook.LoginTest" duration-ms="9612" started-at="2019-01-09T09:22:30Z" finished-at="2019-01-09T09:22:39Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="22451" started-at="2019-01-08T15:52:32Z" finished-at="2019-01-08T15:52:54Z">
+    <test name="Command line test" duration-ms="9612" started-at="2019-01-09T09:22:30Z" finished-at="2019-01-09T09:22:39Z">
       <class name="ProBook.LoginTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ProBook.LoginTest@3fb6a447]" name="beforeMethod" is-config="true" duration-ms="21093" started-at="2019-01-08T15:52:32Z" finished-at="2019-01-08T15:52:53Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ProBook.LoginTest@3fb6a447]" name="beforeMethod" is-config="true" duration-ms="8978" started-at="2019-01-09T09:22:30Z" finished-at="2019-01-09T09:22:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="f()[pri:0, instance:ProBook.LoginTest@3fb6a447]" name="f" duration-ms="752" started-at="2019-01-08T15:52:53Z" finished-at="2019-01-08T15:52:54Z">
+        <test-method status="FAIL" signature="f()[pri:0, instance:ProBook.LoginTest@3fb6a447]" name="f" duration-ms="354" started-at="2019-01-09T09:22:39Z" finished-at="2019-01-09T09:22:39Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: Se connecter / s'inscrire
@@ -19,8 +19,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'PRGDV003-FOR01', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-13-generic', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8689, moz:profile: /tmp/rust_mozprofile.C7sFQ4..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.18.0-13-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3827d677-d433-4715-a91f-c2d9a3ea8963
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 19415, moz:profile: /tmp/rust_mozprofile.Wif0Bt..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.18.0-13-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 85be2245-e735-4b5b-8f67-cbf782b32872
 *** Element info: {Using=link text, value=Se connecter / s'inscrire}]]>
             </message>
             <full-stacktrace>
@@ -29,8 +29,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'PRGDV003-FOR01', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.18.0-13-generic', java.version: '1.8.0_191'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8689, moz:profile: /tmp/rust_mozprofile.C7sFQ4..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.18.0-13-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3827d677-d433-4715-a91f-c2d9a3ea8963
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 19415, moz:profile: /tmp/rust_mozprofile.Wif0Bt..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.18.0-13-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 85be2245-e735-4b5b-8f67-cbf782b32872
 *** Element info: {Using=link text, value=Se connecter / s'inscrire}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -87,7 +87,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="FAIL" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ProBook.LoginTest@3fb6a447]" name="afterMethod" is-config="true" duration-ms="327" started-at="2019-01-08T15:52:54Z" finished-at="2019-01-08T15:52:54Z">
+        <test-method status="FAIL" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:ProBook.LoginTest@3fb6a447]" name="afterMethod" is-config="true" duration-ms="193" started-at="2019-01-09T09:22:39Z" finished-at="2019-01-09T09:22:39Z">
           <params>
             <param index="0">
               <value>
@@ -97,10 +97,10 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </params>
           <exception class="java.io.FileNotFoundException">
             <message>
-              <![CDATA[./screenshots/f_2019-01-08 15-52-54.png (Aucun fichier ou dossier de ce type)]]>
+              <![CDATA[./screenshots/f_2019-01-09 09-22-39.png (Aucun fichier ou dossier de ce type)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: ./screenshots/f_2019-01-08 15-52-54.png (Aucun fichier ou dossier de ce type)
+              <![CDATA[java.io.FileNotFoundException: ./screenshots/f_2019-01-09 09-22-39.png (Aucun fichier ou dossier de ce type)
 at java.io.FileOutputStream.open0(Native Method)
 at java.io.FileOutputStream.open(FileOutputStream.java:270)
 at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
