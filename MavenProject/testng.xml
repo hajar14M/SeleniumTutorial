@@ -1,0 +1,10 @@
+<DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite de test Maven" parallel= "false">
+
+      <test name = "Login">
+         <classe>
+            <classe name="ProBook.LoginTest"/>
+         </classe> 
+      </test>
+</suite>
+</DOCTYPE>
